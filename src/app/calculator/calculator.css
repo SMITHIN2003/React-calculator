@@ -1,0 +1,71 @@
+body {
+  background-color: rgba(235, 175, 250, 0.542);
+}
+.container {
+  background: #535353;
+  max-width: 350px;
+  margin: 150px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.1);
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: #343434;
+  padding: 20px;
+  font-size: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: right;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+button {
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: #3a3939;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #636363;
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+button:active {
+  background-color: rgb(203, 203, 203);
+  transform: translateY(0);
+  box-shadow: none;
+}
+.input {
+  border: 1px solid rgb(78, 78, 78);
+  background-color: #636363;
+  color: white;
+  padding-right: 0.5rem;
+  text-align: right;
+}
+.red-button {
+  background-color: rgb(151, 5, 5);
+  color: white;
+}
+.blue-button {
+  background-color: rgb(40, 40, 185);
+  color: white;
+}
+.star {
+  text-decoration: var(x);
+}
+.result {
+  color: rgb(128, 127, 127);
+  font-size: 1.5rem;
+  text-align: right;
+  
+}
